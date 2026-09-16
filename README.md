@@ -188,5 +188,3 @@ Every PR targeting the `main` branch triggers parallel GitHub Actions. All check
 | `supabase migration new <name>` | Create a new database migration file |
 
 ```
-
-```
