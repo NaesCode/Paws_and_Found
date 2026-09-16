@@ -24,7 +24,7 @@ This is the repository for Paws and Found. This guide covers everything a develo
 
 Every team member must configure their local environment precisely to support the cross-platform mobile framework and backend services.
 
-1. Download and install the latest Flutter SDK and Android Studio. For groupmates using Windows Home editions, you must strictly check the "Android Emulator hypervisor driver" in the Android Studio SDK Manager to ensure virtual devices run correctly.
+1. Download and install the latest Flutter SDK and Android Studio. For deveopers using Windows Home editions, you must strictly check the "Android Emulator hypervisor driver" in the Android Studio SDK Manager to ensure virtual devices run correctly.
 2. Download and install Docker Desktop. This is mandatory for hosting our local Supabase instance and containerizing the external OpenCV engine.
 3. Open your terminal and clone this repository using the command `git clone https://github.com/NaesCode/Paws_and_Found`.
 4. Navigate into the cloned project folder and execute the command `flutter pub get` to download all necessary Dart packages.
@@ -53,7 +53,7 @@ Paws and Found's codebase is structured using a distributed, event-driven archit
 
 ## 4. The Event-Driven Workflow
 
-We rely on an **Event-Driven Storage Trigger** pattern as the primary mutation path to minimize the processing burden on the user's mobile device.
+This relies on an **Event-Driven Storage Trigger** pattern as the primary mutation path to minimize the processing burden on the user's mobile device.
 
 ```text
 User Interaction (Spotted Stray)
@@ -117,12 +117,12 @@ To prevent merge conflicts before our strict November code freeze, absolutely no
 
 ## 9. Commit Message Standards
 
-Clear commit messages are vital for tracking our progress against the project schedule. Every commit must follow standard conventions and reference the active GitHub Issue number.
+Clear commit messages are vital for tracking our progress against the project schedule. Every commit must follow standard conventions.
 
 | Type | Example |
 | --- | --- |
-| **feat:** | feat: integrate OpenCV similarity scoring (#12) |
-| **fix:** | fix: resolve PostGIS spatial query timeout (#15) |
+| **feat:** | feat: integrate OpenCV similarity scoring |
+| **fix:** | fix: resolve PostGIS spatial query timeout |
 | **chore:** | chore: update Flutter dependencies |
 | **refactor:** | refactor: optimize Supabase storage triggers |
 
