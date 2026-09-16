@@ -186,5 +186,3 @@ Every PR targeting the `main` branch triggers parallel GitHub Actions. All check
 | `supabase start` | Start the local Supabase stack |
 | `supabase stop` | Stop local Supabase containers |
 | `supabase migration new <name>` | Create a new database migration file |
-
-```
