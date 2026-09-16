@@ -1,7 +1,6 @@
-```markdown
 # Paws and Found 
 
-This is the official repository for Paws and Found. This guide covers everything a developer needs to build, test, and ship features for the platform. It outlines the technical specifications required to configure your local development environment and ensures a seamless workflow across the team's Flutter mobile client, Supabase backend, and OpenCV AI engine. Read this thoroughly before opening your first PR.
+This is the repository for Paws and Found. This guide covers everything a developer needs to build, test, and ship features for the platform. It outlines the technical specifications required to configure your local development environment and ensures a seamless workflow across the team's Flutter mobile client, Supabase backend, and OpenCV AI engine. Read this thoroughly before opening your first PR.
 
 ---
 
